@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
+  }
+  
+  body {
+    transition: 1s all;
+  }
+  
+body { 
+    background-color: rgb(245, 133, 152);
+}
+
+  header {
+    background-color: rgb(255, 126, 190);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  header ul a {
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+
+  
+  #banner img{
+    width: 900px;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+  }
+
+
+  #productos {
+    padding:  20px;
+    text-align: center;
+   
+ }
+  
+  #productos img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  
+
+
+  #productos h2 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #productos h4{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  
+  #productos .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .productos {
+    background-color: #f0a8a8;
+    border: 1px solid #eeb6b6;
+    padding: 20px;
+  }
+  
+  .producto a {
+    padding: 8px 20px;
+    background-color: rgb(230, 173, 213);
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    color: rgb(196, 82, 82);
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #contacto {
+    background-color: #f1bfbf;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #contacto h2 {
+    padding-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #f7c9c9;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: rgb(247, 121, 198);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  footer {
+    background-color: #e94c4c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #boton-cambiar-modo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(248, 208, 235);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  body.modo-oscuro {
+    background-color: #121212;
+    color: rgb(255, 183, 225);
+  }
+  
+  body.modo-oscuro header {
+    background-color: rgb(151, 49, 117);
+  }
+  
+
+  
+  body.modo-oscuro .producto {
+    background-color: #2e0823;
+  }
+  
+  body.modo-oscuro #contacto {
+    background-color: #220808;
+  }
+  
+  body.modo-oscuro #boton-cambiar-modo {
+    background-color: white;
+    color: black;
+  }
+
+
+  body.modo-oscuro footer{
+    background-color: #141212;
+    color: rgb(139, 0, 76);
+  }
+
+body.modo-oscuro form button {
+    background-color: #5a022e;
+    color: white;
+}
+
+body.modo-oscuro .productos {
+    background-color: #5a022e;
+    color: #b13f8b;
+
+}
